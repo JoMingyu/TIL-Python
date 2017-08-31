@@ -1,4 +1,4 @@
-﻿# 포매팅 방식은 여러가지가 있다
+# 포매팅 방식은 여러가지가 있다
 format1 = 'My %s is %s!!'
 print(format1 % ('Name', 'PlanB'))
 
@@ -7,3 +7,8 @@ print(format1 % ('Name', 'PlanB'))
 format2 = "This is {0} formatting!"
 print(format2.format('awesome'))
 # 타입 안정성이 높고, 정렬이나 공백 채우기 등의 고급 포매팅이 가능해서 이걸 많이 쓴다
+
+# fstring
+# python3.6 에 추가된 string interpolation
+fstr = f"{1+1}"
+print(fstr)
